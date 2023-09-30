@@ -7,9 +7,9 @@ const threeDots2 = document.querySelector('.dots2');
 const report2 = document.querySelector('.report2');
 const threeDots3 = document.querySelector('.dots3');
 const report3 = document.querySelector('.report3');
-const quoteButton = document.querySelector('.title-btn');
+/* const quoteButton = document.querySelector('.title-btn');
 const form = document.querySelector('.quote-form');
-const closeButton = document.querySelector('.close-btn');
+const closeButton = document.querySelector('.close-btn'); */
 
 /* Review Slider Elements */
 const slideContainer = document.getElementById('slides-container');
@@ -36,12 +36,12 @@ prevButton.addEventListener('click', () => {
         buttonTwo.setAttribute('aria-expanded', 'false');
     }
 }); */
-quoteButton.addEventListener('click', function() {
+/* quoteButton.addEventListener('click', function() {
     form.style.display = 'block';
 });
 closeButton.addEventListener('click', function() {
     form.style.display = 'none'
-})
+}) */
 
 threeDots1.addEventListener('click', function() {
     report1.classList.toggle('hidden');
