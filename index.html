@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="phone-styles.css">
+    <link rel="shortcut icon" href="images/honoka-logo.jpg" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@300&family=Croissant+One&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/39c8ee6ecc.js" crossorigin="anonymous"></script>
+    <title>Honoka Coffee</title>
+</head>
+<body>
+    <main>
+        <section>
+            <nav class="nav-bar">
+                <div class="hamburger-btn">
+                    <button title="Hamburger Menu" class="btn-2"
+                    aria-controls="primary-navigation" aria-expanded="false">
+                        <svg fill="#88b06a" class="hamburger" viewBox="0 0 100 100" width="40" height = "40">
+                            <rect class="line top"
+                             width="80" 
+                             height="10"
+                             x="10" 
+                             y="28"
+                             rx="5">
+                            </rect>
+                            <rect class="line middle"
+                             width="80" 
+                             height="10"
+                             x="10" 
+                             y="48"
+                             rx="5">
+                            </rect>
+                            <rect class="line bottom"
+                             width="80" 
+                             height="10"
+                             x="10" 
+                             y="68"
+                             rx="5">
+                            </rect>
+                        </svg>
+                        
+                    </button> 
+                </div>
+                
+                <a title="Link to top of page" href="#"><p>Honoka Coffee <span>tomizawa</span></p></a>
+                <div class="nav-bar-items">
+                    <span><i class="fa-solid fa-circle-question"></i><a href="faq.html">FAQ's</a></span>
+                    <span><i class="fa-solid fa-phone"></i><a href="tel:022-743-3366">Call Now</a></span>
+                    <span><i class="fa-solid fa-diamond-turn-right"></i><a href="https://www.google.com/maps/dir//HONOKA+COFFEE+%E5%AF%8C%E6%B2%A2%E6%9C%AC%E5%BA%97/@38.2153173,140.7830552,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x5f8a2641d4ed679d:0x1b414576aa62f88f!2m2!1d140.8654769!2d38.215375?entry=ttu" target="_blank">Find Directions</a></span>
+                </div>
+
+            </nav>
+        </section>
+        <div class="side-menu hidden">
+            <a href="index.html#reviews">Reviews</a>
+            <a href="index.html#company-profile">Company Profile</a>
+            <a href="index.html#gallery">Gallery</a>
+            <a href="index.html#contact">Contact Us</a>
+            
+                <div class="follow-us">
+                <p>Follow Us</p>
+                <div class="SNS-icons">
+                <a title="Link to Facebook" href="https://ja-jp.facebook.com/honokacafe" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+
+                <a title="Link to Instagram" href="https://www.instagram.com/honokacoffee.inc/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                
+                <a title="Link to Twitter/ X" href="https://twitter.com/honokacafe" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+        </div>
+        </div>
+
+        <section class="title-section">
+            <div class="title">
+                <h1>Honoka Coffee <span>tomizawa</span> </h1>
+            </div>
+            <div class="sub-title">
+                <p>A Caf&eacute; in the Taihaku Ward</p>
+                <p>Opens at 10:30am</p>
+            </div>
+            <div class="title-btn">
+                <button>Request a Quote</button>
+            </div>
+                <div class="quote-form">
+                    <!-- https://formspree.io/f/xqkvgpkk -->
+                    <form action=""
+                    method="POST">
+                        <div class="form-title">
+                            <p class="">Request a Quote</p>
+                            <button class="close-btn">X</button>
+                        </div>
+                        
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" id="name" placeholder="Enter your name" required>
+
+                        <label for="phone">Phone Number:</label>
+                        <input type="tel" name="phone" id="phone" placeholder="Enter your contact number" required>
+
+                        <label for="email">E-mail:</label>
+                        <input type="email" name="email" id="email" placeholder="Enter your email" required>
+
+                        <textarea name="comment" id="comment" cols="20" rows="5" placeholder="I am asking about the availability of reservations and fees. Specific details are as follows" required></textarea>
+
+                        <div class="submit-btn">
+                          <input type="submit" value="Submit">  
+                        </div>
+                        
+                    </form>
+                </div>
+            
+
+            <div class="title-image">
+                <img loading="lazy" src="images/Honoka coffee.png" alt="An image a Honoka Coffee">
+            </div>
+        </section>
+
+        <div class="divider">
+            <hr>
+        </div>
+        <div class="review-title">
+            <h2>reviews</h2>
+        </div>
+        <section id="reviews" class="review-section">
+            
+        </section>
+
+        <!-- Review Slider Start-->
+        <section class="slider-wrapper">
+            <button class="slide-arrow" id="slide-arrow-prev">
+                &#8249;
+            </button>
+            <button class="slide-arrow" id="slide-arrow-next">
+                &#8250;
+            </button>
+            <ul class="slides-container" id="slides-container">
+                <li class="slide">
+                    <div class="comment-1">
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>2 months ago</span>
+                    <div class="dots1">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                        <div class="report1 hidden">
+                            <a href="https://www.google.com/local/review/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSURKem8yMjVnRRAB&entityid=ChdDSUhNMG9nS0VJQ0FnSURKem8yMjVnRRItChZDSUhNMG9nS0VJQ0FnSURKem8yMkZnEhNDZ3dJd2RmVHBRWVEtS3FHMndNGi4KF0NJSE0wb2dLRUlDQWdJREp6bzIybGdFEhNDZ3dJd2RmVHBRWVEtS3FHMndNIhIJnWft1EEmil8Rj_hiqnZFQRsqE0Nnd0k2S0RZcFFZUTZPQ0RnQUU&wv=1&d=286732321" target="_blank">Report</a>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="comment-1-text">
+                    <p>「It is a pleasant café with a view of the riverside from the large window. I was fascinated by the aroma of roasting coffee. Not only the coffee but also the parfait is delicious and satisfying ^_^.」</p>
+                </div>
+                <div class="author">
+                    <p>- mariko a</p>
+                </div>
+                    </div>
+                </li>
+
+                <li class="slide">
+                    <div class="comment-2">
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <span>3 weeks ago</span>
+                            <div class="dots2">
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                                <div class="report2 hidden">
+                                    <a href="https://www.google.com/local/review/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSURKem8yMjVnRRAB&entityid=ChdDSUhNMG9nS0VJQ0FnSURKem8yMjVnRRItChZDSUhNMG9nS0VJQ0FnSURKem8yMkZnEhNDZ3dJd2RmVHBRWVEtS3FHMndNGi4KF0NJSE0wb2dLRUlDQWdJREp6bzIybGdFEhNDZ3dJd2RmVHBRWVEtS3FHMndNIhIJnWft1EEmil8Rj_hiqnZFQRsqE0Nnd0k2S0RZcFFZUTZPQ0RnQUU&wv=1&d=286732321" target="_blank">Report</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="comment-2-text">
+                            <p>「A good shop where you can feel the gentle care of the mother who started the shop! Of course, coffee and scones are also delicious!」</p>
+                        </div>
+                        <div class="author">
+                            <p>shinyasato64</p>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="slide">
+                    <div class="comment-3">
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <span>2 months ago</span>
+                            <div class="dots3">
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                                <div class="report3 hidden">
+                                    <a href="https://www.google.com/local/review/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSURKem8yMjVnRRAB&entityid=ChdDSUhNMG9nS0VJQ0FnSURKem8yMjVnRRItChZDSUhNMG9nS0VJQ0FnSURKem8yMkZnEhNDZ3dJd2RmVHBRWVEtS3FHMndNGi4KF0NJSE0wb2dLRUlDQWdJREp6bzIybGdFEhNDZ3dJd2RmVHBRWVEtS3FHMndNIhIJnWft1EEmil8Rj_hiqnZFQRsqE0Nnd0k2S0RZcFFZUTZPQ0RnQUU&wv=1&d=286732321" target="_blank">Report</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="comment-3-text">
+                            <p>「I went to the store for the first time for takeout. There are 2 parking spaces (?) It was a small and cute store in about a minute. I went after 15:00, but it was full because it was a popular restaurant! Great! It was operated by two clerks, one female and one male, and the customer service was very polite and kind. I love that the scones are delicious even when they are cold. Cafe au lait also has a strong coffee aroma and is delicious. It's a great reward for your hard work!」</p>
+                        </div>
+                        <div class="author">
+                            <p>Eggplant</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="slide">
+                    <div class="comment-3">
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <!-- <i class="fa-solid fa-star"></i> -->
+                            <span>4 weeks ago</span>
+                            <div class="dots3">
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                                <div class="report3 hidden">
+                                    <a href="https://www.google.com/local/review/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSURKem8yMjVnRRAB&entityid=ChdDSUhNMG9nS0VJQ0FnSURKem8yMjVnRRItChZDSUhNMG9nS0VJQ0FnSURKem8yMkZnEhNDZ3dJd2RmVHBRWVEtS3FHMndNGi4KF0NJSE0wb2dLRUlDQWdJREp6bzIybGdFEhNDZ3dJd2RmVHBRWVEtS3FHMndNIhIJnWft1EEmil8Rj_hiqnZFQRsqE0Nnd0k2S0RZcFFZUTZPQ0RnQUU&wv=1&d=286732321" target="_blank">Report</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="comment-3-text">
+                            <p>「I went to Kamei Arena Sendai, but I arrived early, so I searched somewhere to have tea, and it was the first hit.
+                                It is located along the Zarugawa River.
+                                
+                                It seems that the iced coffee with water is extracted for 8 hours. They carefully explain each item.
+                                
+                                It was a very dark ~ Lee taste and fragrance. It seems to be roasted quite deep.
+                                
+                                From the time I drank the soba, the aroma of roasting filled the store. Roasting is smokey, isn't it? There is a roasting machine as soon as you enter the store.
+                                
+                                On the way home, I was sorting the beans.」</p>
+                        </div>
+                        <div class="author">
+                            <p>Masayoshi N</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Review Slider Finish -->
+        
+
+        <div class="write-review">
+            <p><a href="https://www.google.com/search?hl=en-JP&gl=jp&q=Honoka+Coffee+-+Tomizawa,+%E3%81%BB%E3%81%AE%E9%A6%99+1+Chome-4-10+Tomizawaminami,+Taihaku+Ward,+Sendai,+Miyagi+982-0036&ludocid=1963927288477317263&lsig=AB86z5WQobjgG1RJ1v7DPMSicPhK#lrd=0x5f8a2641d4ed679d:0x1b414576aa62f88f,3" target="_blank">Write a review</a></p>
+            <p><a href="https://www.google.com/search?hl=en-JP&gl=jp&q=Honoka+Coffee+-+Tomizawa,+%E3%81%BB%E3%81%AE%E9%A6%99+1+Chome-4-10+Tomizawaminami,+Taihaku+Ward,+Sendai,+Miyagi+982-0036&ludocid=1963927288477317263&lsig=AB86z5WQobjgG1RJ1v7DPMSicPhK#lrd=0x5f8a2641d4ed679d:0x1b414576aa62f88f,1" target="_blank">details</a></p>
+        </div>
+        
+        <section id="company-profile" class="coffee-roaster-section">
+            <div class="grey-box">
+                <div class="grey-box-divider">
+                    <hr>
+                </div>
+                <div class="coffee-roaster-title">
+                    <h2>coffee roaster</h2>
+                </div>
+                <div class="coffee-roaster-subtitle">
+                    <p>It is a coffee roaster that roasts fresh coffee beans.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="gallery-section">
+            <div class="gallery-divider">
+                <hr>
+            </div>
+            <div class="gallery-title">
+                <h2>gallery</h2>
+            </div>
+            <div class="image-gallery">
+                <a href="https://www.google.com/maps/uv?pb=!1s0x5f8a2641d4ed679d%3A0x1b414576aa62f88f!3m1!7e131!4s!5zSE9OT0tBIENPRkZFRSDlr4zmsqLmnKzlupc!15sCgIgAQ&hl=ja&imagekey=!1e10!2sAF1QipPDlyMXqJGvfSWJLSMsViKMHuuKAUH5r9F15-4C"><img loading="lazy" src="images/image-1.jpg" alt=""></a>
+
+                <a href="https://www.google.com/maps/uv?pb=!1s0x5f8a2641d4ed679d%3A0x1b414576aa62f88f!3m1!7e131!4s!5zSE9OT0tBIENPRkZFRSDlr4zmsqLmnKzlupc!15sCgIgAQ&hl=ja&imagekey=!1e10!2sAF1QipNQQ2y2vzWWEfZwn8Q0VgkAPYI-qZCgVdq_VWOI"><img loading="lazy" src="images/image-2.jpg" alt=""></a>
+
+                <a href="https://www.google.com/maps/uv?pb=!1s0x5f8a2641d4ed679d%3A0x1b414576aa62f88f!3m1!7e131!4s!5zSE9OT0tBIENPRkZFRSDlr4zmsqLmnKzlupc!15sCgIgAQ&hl=ja&imagekey=!1e10!2sAF1QipPQgvWrw9XjfF8BzqjK4DlMZBD1A3t5TFST-icV"><img loading="lazy" src="images/image-3.JPG" alt=""></a>
+
+                <a href="https://www.google.com/maps/uv?pb=!1s0x5f8a2641d4ed679d%3A0x1b414576aa62f88f!3m1!7e131!4s!5zSE9OT0tBIENPRkZFRSDlr4zmsqLmnKzlupc!15sCgIgAQ&hl=ja&imagekey=!1e10!2sAF1QipPeddAANl6_S7UcgMZNxPmdJF1Y2TpAgoEvJVti"><img loading="lazy" src="images/image-4.JPG" alt=""></a>
+
+                <a href="https://www.google.com/maps/uv?pb=!1s0x5f8a2641d4ed679d%3A0x1b414576aa62f88f!3m1!7e131!4s!5zSE9OT0tBIENPRkZFRSDlr4zmsqLmnKzlupc!15sCgIgAQ&hl=ja&imagekey=!1e10!2sAF1QipPOp_LF5R6lk7hkE3l8yc45PYDddS-onoDcaLgo"><img loading="lazy" src="images/image-5.jpg" alt=""></a>
+
+                <a href="https://www.google.com/maps/uv?pb=!1s0x5f8a2641d4ed679d%3A0x1b414576aa62f88f!3m1!7e131!4s!5zSE9OT0tBIENPRkZFRSDlr4zmsqLmnKzlupc!15sCgIgAQ&hl=ja&imagekey=!1e10!2sAF1QipPTMW_peBRqgXiIyJy3BmuR8Z1sngCACygJiUV0"><img loading="lazy" src="images/image-6.png" alt=""></a>
+
+                <a href="https://www.google.com/maps/uv?pb=!1s0x5f8a2641d4ed679d%3A0x1b414576aa62f88f!3m1!7e131!4s!5zSE9OT0tBIENPRkZFRSDlr4zmsqLmnKzlupc!15sCgIgAQ&hl=ja&imagekey=!1e10!2sAF1QipPpF10tnl5YCYO4WJF_UgHKuLveMOuPXGV2pDDn"><img loading="lazy" src="images/image-7.jpg" alt=""></a>
+
+                <a href="https://www.google.com/maps/uv?pb=!1s0x5f8a2641d4ed679d%3A0x1b414576aa62f88f!3m1!7e131!4s!5zSE9OT0tBIENPRkZFRSDlr4zmsqLmnKzlupc!15sCgIgAQ&hl=ja&imagekey=!1e10!2sAF1QipPlUxtzJ6Ywz_uppIaznhB0WC-G8jB6oCHD_dAg"><img loading="lazy" src="images/image-8.png" alt=""></a>
+
+                <a href="https://www.google.com/maps/uv?pb=!1s0x5f8a2641d4ed679d%3A0x1b414576aa62f88f!3m1!7e131!4s!5zSE9OT0tBIENPRkZFRSDlr4zmsqLmnKzlupc!15sCgIgAQ&hl=ja&imagekey=!1e10!2sAF1QipPhEWL4RpLTPhpUjhXDGBSfYuLF5YOvueocNmqD"><img loading="lazy" src="images/image-9.png" alt=""></a>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-us">
+            <div class="contact-us-divider">
+                <hr>
+            </div>
+            <div class="contact-us-title">
+                <h2>contact us</h2>
+            </div>
+            <div class="map">
+            <iframe title="Google Maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3134.7652655893344!2d140.86545619999998!3d38.2153461!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f8a2641d4ed679d%3A0x1b414576aa62f88f!2sHonoka%20Coffee%20-%20Tomizawa!5e0!3m2!1sen!2sjp!4v1695280257030!5m2!1sen!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="contact-items">
+            <div class="item-1">
+                <p>contact us</p>
+                <a href="tel:022-743-3366"><button>call now</button></a>
+                <p>022-743-3366</p>
+            </div>
+
+            <div class="item-2">
+                <p>address</p>
+                <a href="https://www.google.com/maps/dir//HONOKA+COFFEE+%E5%AF%8C%E6%B2%A2%E6%9C%AC%E5%BA%97/@38.2153173,140.7830552,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x5f8a2641d4ed679d:0x1b414576aa62f88f!2m2!1d140.8654769!2d38.215375?entry=ttu" target="_blank"><button>get directions</button></a>
+                <p>
+                日本<br>
+                〒982-0036 宮城県仙台市太白区富沢南 <br>
+                １丁目４−１０</p>
+            </div>
+
+            <div class="item-3">
+                <p>business hours</p>
+                <p>Mon: 10:30~17:30</p>
+                <p>Tues: 10:30~17:30</p>
+                <p>Wed: 10:30~17:30</p>
+                <p>Thurs: 10:30~17:30</p>
+                <p>Fri: 10:30~17:30</p>
+                <p>Sat: 10:00~18:00</p>
+                <p>Sun: 10:00~18:00</p>
+            </div>
+        </div>
+        </section>
+    </main>
+    
+    <footer class="footer-section">
+        <div class="footer-divider">
+            <hr>
+        </div>
+        <div class="footer-items">
+            <a href="https://support.google.com/business/answer/7388122" target="_blank">report abuse</a>
+            <span>header photo owned by:
+            <a href="https://www.google.com/maps/contrib/104214091974528044695/photos/@38.2153461,140.8654562,17z/data=!3m1!4b1!4m3!8m2!3m1!1e1?entry=ttu" > Honoka Tomizawa Honten</a></span>
+            <span>powered by <a class="google" href="https://www.google.com/business/" target="_blank">google</a></span>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
